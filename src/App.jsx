@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react'
 import SingleCard from './components/SingleCard';
 
   const cardImages = [
-    {"src" : "public/img/helmet-1.png", matched : false},
-    {"src" : "public/img/potion-1.png", matched : false},
-    {"src" : "public/img/ring-1.png", matched : false},
-    {"src" : "public/img/scroll-1.png", matched : false},
-    {"src" : "public/img/shield-1.png", matched : false},
-    {"src" : "public/img/sword-1.png", matched : false},
+    {"src" : "/img/helmet-1.png", matched : false},
+    {"src" : "/img/potion-1.png", matched : false},
+    {"src" : "/img/ring-1.png", matched : false},
+    {"src" : "/img/scroll-1.png", matched : false},
+    {"src" : "/img/shield-1.png", matched : false},
+    {"src" : "/img/sword-1.png", matched : false},
   ];
 
 const App = () => {
