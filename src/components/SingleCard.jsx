@@ -12,7 +12,7 @@ const SingleCard = ({ card, handleChoice, flipped, disabled}) => {
       <div className={flipped ? "flipped" : ""}>
         <img src={card.src} alt="" className="front w-full block border-2 border-white rounded-xl " />
         <img
-          src="/public/img/cover.png"
+          src="/img/cover.png"
           alt=""
           className="back w-full block border-2 border-white rounded-xl"
           onClick={handleClick}
